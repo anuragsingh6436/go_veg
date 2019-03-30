@@ -4,22 +4,25 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.18.3",
+    "bufferutil": "4.0.1",
     "connect-flash": "^0.1.1",
     "ejs": "^2.6.1",
-    "express": "^4.16.4",
+    "express": "4.16.4",
     "express-ejs-layouts": "^2.5.0",
     "express-session": "^1.15.6",
     "mongoose": "^5.4.19",
     "nexmo": "^2.4.1",
     "passport": "^0.4.0",
     "passport-local": "^1.0.0",
-    "socket.io": "^2.2.0"
+    "socket.io": "2.2.0",
+    "utf-8-validate": "5.0.2",
+    "ws": "6.2.1"
   }
 }
