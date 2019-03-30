@@ -4,7 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+<<<<<<< HEAD
     "start": "node app"
+=======
+ "start": "node app"
+>>>>>>> 9f159bd84070e81d08c262b3045e207074a34e9a
   },
   "author": "",
   "license": "ISC",
